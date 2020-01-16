@@ -1,5 +1,6 @@
 # waterdrop-tidb2-plugin
-可能是由于 waterdrop 的作者比较忙吧，waterdrop 的 input 中的 tidb 插件用到的 tispark 依赖包还是 1.1 版本的。导致读取 spark2.3 读取 tidb3.0 数据失败(tidb2.0 没测，估计应该可以吧，如果哪位测了话，可以告诉我一下，原版的1.4.2读tidb2.0的行不。)
+1. 可能是由于 waterdrop 的作者比较忙吧，waterdrop 的 input 中的 tidb 插件用到的 tispark 依赖包还是 1.1 版本的。导致读取 spark2.3 读取 tidb3.0 数据失败(tidb2.0 没测，估计应该可以吧，如果哪位测了话，可以告诉我一下，原版的1.4.2读tidb2.0的行不。)
+2. 为什么要写插件呢，是因为 tispark2.0+之后`new TiContext(spark)`会报错，貌似是加了第二个参数。
 
 ### TIDB
   3.0 版本的要想用 spark 就得用 spark2.3+ ，并且 tispark2.0+。
