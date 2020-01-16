@@ -7,7 +7,7 @@
   1.4.2 的版本用的是 spark2.3，要想读取 tidb 数据，得用tispark2.0+，并且 tidb3.0+
   
 ### 升级
-  所以三个都要升级到对应版本，要求 ** waterdrop-1.4.2，tispark2.0+，tidb3.0+ **
+  所以三个都要升级到对应版本，要求 waterdrop-1.4.2，tispark2.0+，tidb3.0+
   
 ### 使用
   1. 将Waterdrop-1.4.2-tispark2.2.jar包下载下来，替换原版的1.4.2版本lib下的jar包 https://github.com/ludengke95/waterdrop-tidb2-plugin/releases
