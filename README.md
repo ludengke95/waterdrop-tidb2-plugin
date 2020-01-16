@@ -10,7 +10,7 @@
   所以三个都要升级到对应版本，要求 **waterdrop-1.4.2，tispark2.0+，tidb3.0+ **
   
 ### 使用
-  1. 将Waterdrop-1.4.2-tispark2.2.jar包下载下来，替换原版的1.4.2版本lib下的jar包（https://github.com/ludengke95/waterdrop-tidb2-plugin）
+  1. 将Waterdrop-1.4.2-tispark2.2.jar包下载下来，替换原版的1.4.2版本lib下的jar包 https://github.com/ludengke95/waterdrop-tidb2-plugin/releases
   2. 将waterdrop-tidb2-plugin.jar按照原来作者插件的形式放到plugins里面。
   3. 在配置文件的input中，使用插件
   ```
